@@ -25,36 +25,35 @@ ABOUT THE AUTHORS
 PART 1 THE GROOVY LANGUAGE
 READ IN LIVEBOOK
 1. YOUR WAY TO GROOVY
-[x] 1.1. The Groovy story
+1.1. The Groovy story
 [x] 1.1.1. What is Groovy?
 [x] 1.1.2. Playing nicely with Java: seamless integration
 [x] 1.1.3. Power in your code: a feature-rich language
 [x] 1.1.4. Community driven but corporate backed
-[ ] 1.2. What Groovy can do for you
-[ ] 1.2.1. Groovy for the busy Java professional
-[ ] 1.2.2. Groovy for the polyglot programmer
-[ ] 1.2.3. Groovy for pragmatic programmers, extremos, and agilists
-[ ] 1.3. Running Groovy
-[ ] 1.3.1. Using groovysh for a welcome message
-[ ] 1.3.2. Using groovyConsole
-[ ] 1.3.3. Using the groovy command
-[ ] 1.4. Compiling and running Groovy
-[ ] 1.4.1. Compiling Groovy with groovyc
-[ ] 1.4.2. Running a compiled Groovy script with Java
-[ ] 1.5. Groovy IDE and editor support
-[ ] 1.5.1. IntelliJ IDEA plug-in
-[ ] 1.5.2. NetBeans IDE plug-in
-[ ] 1.5.3. Eclipse plug-in
-[ ] 1.5.4. Groovy support in other editors
-[ ] 1.6. Summary
-READ IN LIVEBOOK
+1.2. What Groovy can do for you
+[x] 1.2.1. Groovy for the busy Java professional
+[x] 1.2.2. Groovy for the polyglot programmer
+[x] 1.2.3. Groovy for pragmatic programmers, extremos, and agilists
+1.3. Running Groovy
+[x] 1.3.1. Using groovysh for a welcome message
+[x] 1.3.2. Using groovyConsole
+[x] 1.3.3. Using the groovy command
+1.4. Compiling and running Groovy
+[x] 1.4.1. Compiling Groovy with groovyc
+[x] 1.4.2. Running a compiled Groovy script with Java
+1.5. Groovy IDE and editor support
+[x] 1.5.1. IntelliJ IDEA plug-in
+[x] 1.5.2. NetBeans IDE plug-in
+[x] 1.5.3. Eclipse plug-in
+[x] 1.5.4. Groovy support in other editors
+[x] 1.6. Summary
 2. OVERTURE: GROOVY BASICS
-[ ] 2.1. General code appearance
+2.1. General code appearance
 [ ] 2.1.1. Commenting Groovy code
 [ ] 2.1.2. Comparing Groovy and Java syntax
 [ ] 2.1.3. Beauty through brevity
-[ ] 2.2. Probing the language with assertions
-[ ] 2.3. Groovy at a glance
+2.2. Probing the language with assertions
+2.3. Groovy at a glance
 [ ] 2.3.1. Declaring classes
 [ ] 2.3.2. Using scripts
 [ ] 2.3.3. GroovyBeans
@@ -65,102 +64,97 @@ READ IN LIVEBOOK
 [ ] 2.3.8. Using lists, maps, and ranges
 [ ] 2.3.9. Code as objects: closures
 [ ] 2.3.10. Groovy control structures
-[ ] 2.4. Groovy’s place in the Java environment
+2.4. Groovy’s place in the Java environment
 [ ] 2.4.1. My class is your class
 [ ] 2.4.2. GDK: the Groovy library
 [ ] 2.4.3. Groovy compiler lifecycle
-[ ] 2.5. Summary
-READ IN LIVEBOOK
+2.5. Summary
 3. SIMPLE GROOVY DATATYPES
-[ ] 3.1. Objects, objects everywhere
+3.1. Objects, objects everywhere
 [ ] 3.1.1. Java’s type system: primitives and references
 [ ] 3.1.2. Groovy’s answer: everything’s an object
 [ ] 3.1.3. Interoperating with Java: automatic boxing and unboxing
 [ ] 3.1.4. No intermediate unboxing
-[ ] 3.2. The concept of optional typing
+3.2. The concept of optional typing
 [ ] 3.2.1. Assigning types
 [ ] 3.2.2. Dynamic Groovy is type safe
 [ ] 3.2.3. Let the casting work for you
 [ ] 3.2.4. The case for optional typing
-[ ] 3.3. Overriding operators
+3.3. Overriding operators
 [ ] 3.3.1. Overview of overridable operators
 [ ] 3.3.2. Overridden operators in action
 [ ] 3.3.3. Making coercion work for you
-[ ] 3.4. Working with strings
+3.4. Working with strings
 [ ] 3.4.1. Varieties of string literals
 [ ] 3.4.2. Working with GStrings
 [ ] 3.4.3. From Java to Groovy
-[ ] 3.5. Working with regular expressions
+3.5. Working with regular expressions
 [ ] 3.5.1. Specifying patterns in string literals
 [ ] 3.5.2. Applying patterns
 [ ] 3.5.3. Patterns in action
 [ ] 3.5.4. Patterns and performance
 [ ] 3.5.5. Patterns for classification
-[ ] 3.6. Working with numbers
+3.6. Working with numbers
 [ ] 3.6.1. Coercion with numeric operators
 [ ] 3.6.2. GDK methods for numbers
-[ ] 3.7. Summary
-READ IN LIVEBOOK
+3.7. Summary
 4. COLLECTIVE GROOVY DATATYPES
-[ ] 4.1. Working with ranges
+4.1. Working with ranges
 [ ] 4.1.1. Specifying ranges
 [ ] 4.1.2. Ranges are objects
 [ ] 4.1.3. Ranges in action
-[ ] 4.2. Working with lists
+4.2. Working with lists
 [ ] 4.2.1. Specifying lists
 [ ] 4.2.2. Using list operators
 [ ] 4.2.3. Using list methods
 [ ] 4.2.4. Lists in action
-[ ] 4.3. Working with maps
+4.3. Working with maps
 [ ] 4.3.1. Specifying maps
 [ ] 4.3.2. Using map operators
 [ ] 4.3.3. Maps in action
-[ ] 4.4. Notes on Groovy collections
+4.4. Notes on Groovy collections
 [ ] 4.4.1. Understanding concurrent modification
 [ ] 4.4.2. Distinguishing between copy and modify semantics
 [ ] 4.5. Summary
-READ IN LIVEBOOK
 5. WORKING WITH CLOSURES
 [ ] 5.1. A gentle introduction to closures
-[ ] 5.2. The case for closures
+5.2. The case for closures
 [ ] 5.2.1. Using iterators
 [ ] 5.2.2. Handling resources with a protocol
-[ ] 5.3. Declaring closures
+5.3. Declaring closures
 [ ] 5.3.1. Simple declaration
 [ ] 5.3.2. Using assignments for declaration
 [ ] 5.3.3. Referring to methods as closures
 [ ] 5.3.4. Comparing the available options
-[ ] 5.4. Using closures
+5.4. Using closures
 [ ] 5.4.1. Calling a closure
 [ ] 5.4.2. More closure capabilities
-[ ] 5.5. Understanding closure scope
+5.5. Understanding closure scope
 [ ] 5.5.1. Simple variable scope
 [ ] 5.5.2. Inspecting closure scope
 [ ] 5.5.3. Scoping at work: the classic accumulator test
 [ ] 5.6. Returning from closures
-[ ] 5.7. Support for design patterns
+5.7. Support for design patterns
 [ ] 5.7.1. Relationship to the Visitor pattern
 [ ] 5.7.2. Relationship to the Builder pattern
 [ ] 5.7.3. Relationship to other patterns
-[ ] 5.8. Summary
-READ IN LIVEBOOK
+5.8. Summary
 6. GROOVY CONTROL STRUCTURES
 [ ] 6.1. Groovy truth
 [ ] 6.1.1. Evaluating Boolean tests
 [ ] 6.1.2. Assignments within Boolean tests
-[ ] 6.2. Conditional execution structures
+6.2. Conditional execution structures
 [ ] 6.2.1. The humble if statement
 [ ] 6.2.2. The conditional ?: operator and Elvis
 [ ] 6.2.3. The switch statement and the in operator
 [ ] 6.2.4. Sanity checking with assertions
-[ ] 6.3. Looping
+6.3. Looping
 [ ] 6.3.1. Looping with while
 [ ] 6.3.2. Looping with for
-[ ] 6.4. Exiting blocks and methods
+6.4. Exiting blocks and methods
 [ ] 6.4.1. Normal termination: return/break/continue
 [ ] 6.4.2. Exceptions: throw/try-catch-finally
-[ ] 6.5. Summary
-READ IN LIVEBOOK
+6.5. Summary
 7. OBJECT ORIENTATION, GROOVY STYLE
 [ ] 7.1. Defining classes and scripts
 [ ] 7.1.1. Defining fields and local variables
@@ -186,7 +180,6 @@ READ IN LIVEBOOK
 [ ] 7.5.2. Injecting the spread operator
 [ ] 7.5.3. Concise syntax with command chains
 [ ] 7.6. Summary
-READ IN LIVEBOOK
 8. DYNAMIC PROGRAMMING WITH GROOVY
 [ ] 8.1. What is dynamic programming?
 [ ] 8.2. Meta Object Protocol
@@ -211,7 +204,6 @@ READ IN LIVEBOOK
 [ ] 8.5.4. Undoing metaclass modifications
 [ ] 8.5.5. The Intercept/Cache/Invoke pattern
 [ ] 8.6. Summary
-READ IN LIVEBOOK
 9. COMPILE-TIME METAPROGRAMMING AND AST TRANSFORMATIONS
 [ ] 9.1. A brief history
 [ ] 9.1.1. Generating bytecode, not source code
@@ -244,7 +236,6 @@ READ IN LIVEBOOK
 [ ] 9.8.6. It’s unhygienic
 [ ] 9.9. Next steps
 [ ] 9.10. Summary
-READ IN LIVEBOOK
 10. GROOVY AS A STATIC LANGUAGE
 [ ] 10.1. Motivation for optional static typing
 [ ] 10.1.1. The role of types in Groovy
@@ -271,7 +262,6 @@ READ IN LIVEBOOK
 [ ] 10.5.3. Limits
 [ ] 10.6. Summary
 PART 2 AROUND THE GROOVY LIBRARY
-READ IN LIVEBOOK
 11. WORKING WITH BUILDERS
 [ ] 11.1. Learning by example: Using a builder
 [ ] 11.2. Building object trees with NodeBuilder
@@ -304,7 +294,6 @@ READ IN LIVEBOOK
 [ ] 11.8.2. Subclassing FactoryBuilderSupport
 [ ] 11.8.3. Rolling your own
 [ ] 11.9. Summary
-READ IN LIVEBOOK
 12. WORKING WITH THE GDK
 [ ] 12.1. Working with objects
 [ ] 12.1.1. Interactive objects
@@ -329,7 +318,6 @@ READ IN LIVEBOOK
 [ ] 12.5.2. Groovlet binding
 [ ] 12.5.3. Templating Groovlets
 [ ] 12.6. Summary
-READ IN LIVEBOOK
 13. DATABASE PROGRAMMING WITH GROOVY
 [ ] 13.1. Groovy SQL: a better JDBC
 [ ] 13.1.1. Setting up for database access
@@ -355,7 +343,6 @@ READ IN LIVEBOOK
 [ ] 13.5.2. Neo4J: A graph database
 [ ] 13.6. Other approaches
 [ ] 13.7. Summary
-READ IN LIVEBOOK
 14. WORKING WITH XML AND JSON
 [ ] 14.1. Reading XML documents
 [ ] 14.1.1. Working with a DOM parser
@@ -371,7 +358,6 @@ READ IN LIVEBOOK
 [ ] 14.3.1. Parsing JSON
 [ ] 14.3.2. Building JSON
 [ ] 14.4. Summary
-READ IN LIVEBOOK
 15. INTERACTING WITH WEB SERVICES
 [ ] 15.1. An overview of Web Services
 [ ] 15.2. Reading RSS and ATOM
@@ -382,7 +368,6 @@ READ IN LIVEBOOK
 [ ] 15.5.2. Simplifying SOAP access using HTTPBuilder
 [ ] 15.5.3. Simplifying SOAP access using groovy-wslite
 [ ] 15.6. Summary
-READ IN LIVEBOOK
 16. INTEGRATING GROOVY
 [ ] 16.1. Prelude to integration
 [ ] 16.1.1. Integrating appropriately
@@ -420,7 +405,6 @@ READ IN LIVEBOOK
 [ ] 16.8. Choosing an integration mechanism
 [ ] 16.9. Summary
 PART 3 APPLIED GROOVY
-READ IN LIVEBOOK
 17. UNIT TESTING WITH GROOVY
 [ ] 17.1. Getting started
 [ ] 17.1.1. Writing tests is easy
@@ -448,7 +432,6 @@ READ IN LIVEBOOK
 [ ] 17.8.1. Build integration with Gradle
 [ ] 17.8.2. Build integration with Maven
 [ ] 17.9. Summary
-READ IN LIVEBOOK
 18. CONCURRENT GROOVY WITH GPARS
 [ ] 18.1. Concurrency for the rest of us
 [ ] 18.1.1. Concurrent != parallel
@@ -466,7 +449,6 @@ READ IN LIVEBOOK
 [ ] 18.6. Agents for delegated task coordination
 [ ] 18.7. Concurrency in action
 [ ] 18.8. Summary
-READ IN LIVEBOOK
 19. DOMAIN-SPECIFIC LANGUAGES
 [ ] 19.1. Groovy’s flexible nature
 [ ] 19.1.1. Back to omitting parentheses
@@ -489,7 +471,6 @@ READ IN LIVEBOOK
 [ ] 19.9.4. Preventing cheating with metaprogramming
 [ ] 19.10. Testing and error reporting
 [ ] 19.11. Summary
-READ IN LIVEBOOK
 20. THE GROOVY ECOSYSTEM
 [ ] 20.1. Groovy Grapes for self-contained scripts
 [ ] 20.2. Scriptom for Windows automation
