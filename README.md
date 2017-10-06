@@ -49,25 +49,25 @@ READ IN LIVEBOOK
 [x] 1.6. Summary
 2. OVERTURE: GROOVY BASICS
 2.1. General code appearance
-[ ] 2.1.1. Commenting Groovy code
-[ ] 2.1.2. Comparing Groovy and Java syntax
-[ ] 2.1.3. Beauty through brevity
+[x] 2.1.1. Commenting Groovy code
+[x] 2.1.2. Comparing Groovy and Java syntax
+[x] 2.1.3. Beauty through brevity
 2.2. Probing the language with assertions
 2.3. Groovy at a glance
-[ ] 2.3.1. Declaring classes
-[ ] 2.3.2. Using scripts
-[ ] 2.3.3. GroovyBeans
-[ ] 2.3.4. Annotations
-[ ] 2.3.5. Using grapes
-[ ] 2.3.6. Handling text
-[ ] 2.3.7. Numbers are objects
-[ ] 2.3.8. Using lists, maps, and ranges
-[ ] 2.3.9. Code as objects: closures
-[ ] 2.3.10. Groovy control structures
+[x] 2.3.1. Declaring classes
+[x] 2.3.2. Using scripts
+[x] 2.3.3. GroovyBeans
+[x] 2.3.4. Annotations
+[x] 2.3.5. Using grapes
+[x] 2.3.6. Handling text
+[x] 2.3.7. Numbers are objects
+[x] 2.3.8. Using lists, maps, and ranges
+[x] 2.3.9. Code as objects: closures
+[x] 2.3.10. Groovy control structures
 2.4. Groovy’s place in the Java environment
-[ ] 2.4.1. My class is your class
-[ ] 2.4.2. GDK: the Groovy library
-[ ] 2.4.3. Groovy compiler lifecycle
+[x] 2.4.1. My class is your class
+[x] 2.4.2. GDK: the Groovy library
+[x] 2.4.3. Groovy compiler lifecycle
 2.5. Summary
 3. SIMPLE GROOVY DATATYPES
 3.1. Objects, objects everywhere
